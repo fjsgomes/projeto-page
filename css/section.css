@@ -1,0 +1,135 @@
+.description {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;  
+  justify-content: space-between;
+  padding: 250px 127px 0px 127px;
+  /* border: 1px solid green; */
+}
+
+.services {
+  /* flex: 50%; */
+  /* width: 773px; */
+  /* border: 1px solid red; */
+}
+
+.description-text {
+  /* display: flex; */
+}
+
+.services__pretitle {
+  font-family: var(--inter);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin: 0;
+}
+
+.line-title {
+  position: relative;
+  width: 115px;
+  margin: 0;
+  margin: -12px 0 17px 535px;
+  z-index: -1;
+}
+
+.services__title {
+  font-family: var(--inter);
+  font-weight: 700;
+  font-size: 77px;
+  line-height: 90px;
+  color: var(--blue);
+  margin: 0;  
+}
+
+.services__subtitle {
+  font-family: var(--inter);  
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: justify;
+  color: var(--blue);
+  width: 585px;
+  /* border: 1px solid var(--orange); */
+}
+
+.services__description {
+  font-family: var(--inter);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: justify;
+  color: var(--blue);
+  opacity: 54%;
+  width: 585px;
+}
+
+.services__button {
+  text-align: center;
+}
+
+.services__button-text {
+  padding: 20px 45px;
+  margin-top: 85px;
+  background: var(--dark-orange);
+  border: var(--dark-orange);
+  border-radius: 15px;
+  text-align: center;
+  font-family: var(--inter);
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 33px;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.services__options {
+  font-family: var(--inter);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--blue);
+  opacity: 54%;
+}
+
+.services__image{
+  /* flex: 50% */
+}
+
+.main-image {  
+  width: 868px;
+  height: 680px;
+  margin: -140px 0px -15px 0px;  
+  /* border: 1px solid pink; */
+}
+
+.vector {
+  position: absolute;
+  /* width: 815.19px; */
+  height: 535.75px;
+  margin: 250px 0px 0px -337px;
+  z-index: 1;
+}
+
+@media (max-width: 1400px) {
+  
+}
+
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
