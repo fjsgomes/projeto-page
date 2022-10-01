@@ -40,7 +40,7 @@ body {
 .line-logo {
   width: 35px;
   height: 35px;
-  margin: 0px 0 -5px -8px;
+  margin: 0px 0 -5px -10px;
 }
 
 .nav-bar {
@@ -53,6 +53,7 @@ body {
   color: var(--blue);
   padding-top: 30px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .nav-bar__list a {
@@ -68,6 +69,7 @@ body {
 .nav-bar__link-entrar {
   padding: 0;
   cursor: pointer;
+  margin: 0px -3px 0px -3px;
 }
 
 .nav-bar__img-lupa{
@@ -110,18 +112,26 @@ body {
   }
 
   .header {    
-    padding: 25px 50px 0px 50px;    
-  } 
-
-  .line-logo {
-    width: 35px;
-    height: 35px;
-    margin: -50px 0 66px 80px;
+    padding: 0px 40px 0px 40px;
   }
 
+  .header-title {    
+    padding-top: 15px;
+  }
+
+  .header-title__main {
+    margin: 0;
+    padding-top: 2px;
+  }
+
+  /* .line-logo {    
+    margin: -50px 0 66px 80px;
+  } */
+
   .nav-bar {
-    width: 685px;
-    font-size: 15px;    
+    /* width: 685px; */
+    font-size: 15px;
+    padding-top: 35px;    
   }
 
   .nav-bar__link {  
@@ -130,7 +140,8 @@ body {
 
   .nav-bar__line-vertical {
     width: 50px;
-    height: 50px;    
+    height: 50px;
+    margin: 0px -7px -10px -7px;
   }
 
   .nav-bar__button {
@@ -141,21 +152,36 @@ body {
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-  .nav-bar {    
-    font-size: 14px;
+  .header {    
+    padding: 0px 50px 0px 50px;
+  }
+
+  .header-title__main {
+    margin: 0;
+    padding-top: 10px;
+  }
+
+  .image-top {    
+    width: 280px;
+    height: 190px;
+  }
+
+  .nav-bar {
+    font-size: 16px;
+    /* width: 768px; */
   }
 
   .nav-bar__button {    
-    font-size: 14px;    
+    font-size: 16px;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
-	.nav-bar {
+	/* .nav-bar {
     font-size: 17px;
   }
 
   .nav-bar__button {
     font-size: 17px;
-  }
+  } */
 }
